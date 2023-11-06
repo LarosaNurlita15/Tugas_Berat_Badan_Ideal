@@ -1,0 +1,43 @@
+body {
+    background-image: url('background_green.jpg'); /* Ganti 'background.jpg' dengan nama file gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 90px auto;
+    max-width: 460px;
+    padding: 50px;
+    background-color: #05F2F2; /* Warna latar belakang transparan */
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+input, button, label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000;
+    padding: 5px;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #33A6A6;
+}
+
+#hasil {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #000;
+}
